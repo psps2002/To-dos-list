@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005bbc;
+}
+.main{
+    font-size:4rem;
+    justify-content: center;
+  align-items: center;
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+input{
+    width: 20rem;
+    padding:0.35rem;
+    border-radius: 0.25rem;
+    border-color: black;
+}
+button{
+    padding:0.25rem;
+    border-radius: 0.25rem;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+}
+#items-list{
+    padding-left: 2rem;
+    left:0;
+    width: 10 rem;
+    font-size: medium;
+    color:white;
+}
+#items-list button{
+    border-color: black;
+    background-color: rgb(3, 255, 238);
+    color:rgb(0, 0, 0);
+    height:1.5rem;
+    margin-left: 1rem;
+}
